@@ -1,8 +1,12 @@
 .service_assurance{
-  background: url("../../images/assurance_bg.png") top center no-repeat;
+  background: url("../images/assurance_bg.png") top center no-repeat;
   width: 100%;
-  height: 1868px;
+  //height: 1868px;
   margin: 0 auto;
+  background-size: 100%;
+  @media screen and (max-width: 1374px) {
+    background-size: auto;
+  }
 }
 
 
@@ -12,7 +16,7 @@
 }
 
 .service_assurance .title_img{
-  background: url("../../images/business_process.png") top center no-repeat;
+  background: url("../images/business_process.png") top center no-repeat;
   width: 100%;
   height: 52px;
   margin: 0 auto;
@@ -26,7 +30,7 @@
 
 .service_assurance_content{
   position: relative;
-  height: 1527px;
+  //height: 1527px;
   max-width: 1200px;
   width: 1073px;
   margin: 0 auto;
@@ -56,10 +60,10 @@
 /*资金安全*/
 .service_assurance_content .security{
   width: 100%;
-  position: absolute;
+  margin-bottom: 50px;
 }
 .service_assurance_content .security_img{
-  background: url("../../images/security.png") top center no-repeat;
+  background: url("../images/security.png") top center no-repeat;
   width: 499px;
   height: 383px;
   float: left;
@@ -70,12 +74,11 @@
 }
 /*效率提升*/
 .service_assurance_content .efficiency{
-  position: absolute;
-  top: 30%;
   width: 100%;
+  margin-bottom: 50px;
 }
 .service_assurance_content .efficiency_img{
-  background: url("../../images/efficiency.png") top center no-repeat;
+  background: url("../images/efficiency.png") top center no-repeat;
   width: 406px;
   height: 443px;
   float: right;
@@ -89,13 +92,11 @@
 /*专业客服*/
 
 .service_assurance_content .customer{
-  position: absolute;
-  top: 60%;
   width: 100%;
 }
 
 .service_assurance_content .customer_img{
-  background: url("../../images/customer service.png") top center no-repeat;
+  background: url("../images/customer service.png") top center no-repeat;
   width: 405px;
   height: 428px;
   float: left;
