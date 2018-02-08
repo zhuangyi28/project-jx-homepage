@@ -29,6 +29,10 @@ function devEjs() {
 
                 addHtml += "<meta name='renderer' content='webkit' />\n";
 
+                addHtml +="<meta name='keywords' content='企业薪酬服务，薪酬管理，社保代理，公积金，工资代发，报税，工资计算，薪酬计算，劳务工资，社保，社保代缴，缴社保，缴公积金，发工资，嘉薪，个税，劳务工资，算工资' />\n";
+
+                addHtml +='<meta name="description" content="专注在弹性福利领域，面对企业提供服务，帮助企业发放和管理员工福利、奖励。"/>\n'
+
 
                 addHtml += "<link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />\n";
 

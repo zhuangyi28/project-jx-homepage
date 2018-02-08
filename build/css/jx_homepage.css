@@ -1,0 +1,378 @@
+/*嘉薪主要全局样式*/
+* {
+  font-family: Arial, 'Microsoft YaHei';
+  font-size: 14px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+div,
+footer,
+form,
+h1,
+header,
+img,
+label,
+li,
+menu,
+nav,
+ol,
+p,
+section,
+span,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+a {
+  text-decoration: none;
+  tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "黑体";
+}
+/*input去除它的自带样式*/
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: inherit;
+  color: inherit;
+}
+/*嘉薪主要全局样式结束*/
+
+.footer {
+  position: relative;
+  background: #1a1918;
+  width: 100%;
+  height: 200px;
+  color: #999;
+  padding: 20px 0;
+  z-index: -1;
+}
+.jx_footer {
+  position: relative;
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+.jx_footer .logo {
+  margin: 10px 0;
+}
+.jx_footer_info {
+  /*border-bottom: solid 1px #999;*/
+  position: absolute;
+  padding: 30px 0;
+  width: 100%;
+}
+.jx_footer_info .service {
+  float: left;
+}
+.jx_footer_info .service p {
+  cursor: pointer;
+}
+.jx_footer_info .service p:hover {
+  color: white;
+}
+.jx_footer_info .contact {
+  float: right;
+}
+.jx_footer_info .contact .add {
+  cursor: pointer;
+}
+.jx_footer_info .contact .add:hover {
+  color: white;
+}
+.jx_footer_info .contact .title {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.jx_footer_info a:hover {
+  color: white;
+}
+.jx_footer_provider {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+.jx_footer_provider .icp {
+  width: 50%;
+  float: left;
+}
+.jx_footer_provider .copyright {
+  float: right;
+}
+
+.jx_nav {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.jx_nav .jx_nav_content {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.jx_nav .jx_nav_phone {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.jx_nav .jx_nav_phone img {
+  vertical-align: middle;
+}
+.jx_nav .jx_nav_phone .phone_number {
+  color: #ff7420;
+  /*background: linear-gradient(90deg,#f67555,#fdad5f 80%,#ff7420);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#f67555, endColorstr=#ff7420);*/
+  /*  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.jx_banner {
+  position: relative;
+  width: 100%;
+  height: 830px;
+  background: url(../../images/banner-bg.png) top center no-repeat;
+  margin: 0 auto;
+}
+.jx_banner .jx_banner_content {
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  width: 1073px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.jx_banner .jx_banner_content .jx_banner_img {
+  background: url(../../images/banner-content.png) top center no-repeat;
+  width: 712px;
+  height: 677px;
+  position: absolute;
+  top: 18%;
+  left: 43%;
+}
+.jx_banner .jx_banner_txt {
+  position: absolute;
+  left: -3%;
+  top: 42%;
+  color: white;
+}
+.jx_banner .jx_banner_txt p {
+  font-size: 60px;
+}
+.jx_banner .jx_banner_txt span {
+  font-size: 48px;
+}
+.jx_banner .jx_banner_txt .txt_bold {
+  font-weight: 900;
+}
+
+.service_assurance {
+  background: url("../../images/assurance_bg.png") top center no-repeat;
+  width: 100%;
+  height: 1868px;
+  margin: 0 auto;
+}
+.service_assurance .title {
+  text-align: center;
+  padding: 100px 0;
+}
+.service_assurance .title_img {
+  background: url("../../images/business_process.png") top center no-repeat;
+  width: 100%;
+  height: 52px;
+  margin: 0 auto;
+}
+.service_assurance .title_text {
+  font-size: 68px;
+  color: #4a4a4a;
+}
+.service_assurance_content {
+  position: relative;
+  height: 1527px;
+  max-width: 1200px;
+  width: 1073px;
+  margin: 0 auto;
+}
+.service_assurance_content .all_text {
+  padding-top: 50px;
+}
+.service_assurance_content h3 {
+  font-size: 48px;
+  font-weight: normal;
+  color: #4a4a4a;
+}
+.service_assurance_content img {
+  vertical-align: middle;
+  height: 80px;
+}
+.service_assurance_content .text {
+  position: absolute;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 20px;
+  color: #8a8a8a ;
+  width: 30%;
+  padding-top: 7px;
+}
+/*资金安全*/
+.service_assurance_content .security {
+  width: 100%;
+  position: absolute;
+}
+.service_assurance_content .security_img {
+  background: url("../../images/security.png") top center no-repeat;
+  width: 499px;
+  height: 383px;
+  float: left;
+}
+.service_assurance_content .security_text {
+  float: right;
+}
+/*效率提升*/
+.service_assurance_content .efficiency {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.service_assurance_content .efficiency_img {
+  background: url("../../images/efficiency.png") top center no-repeat;
+  width: 406px;
+  height: 443px;
+  float: right;
+  vertical-align: middle;
+}
+.service_assurance_content .efficiency_text {
+  float: left;
+}
+/*专业客服*/
+.service_assurance_content .customer {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+}
+.service_assurance_content .customer_img {
+  background: url("../../images/customer service.png") top center no-repeat;
+  width: 405px;
+  height: 428px;
+  float: left;
+}
+.service_assurance_content .customer_text {
+  float: right;
+}
+
+.business_process {
+  position: relative;
+  height: 900px;
+  max-width: 1247px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.business_process .title {
+  text-align: center;
+  margin: 100px 0;
+}
+.business_process .title_img {
+  background: url("../../images/business_process.png") top center no-repeat;
+  width: 100%;
+  height: 52px;
+  margin: 0 auto;
+}
+.business_process .title_text {
+  font-size: 68px;
+  color: #4a4a4a;
+}
+.business_process .content_box {
+  background: url("../../images/frame _diagram.png") top center no-repeat;
+  width: 1247px;
+  text-align: center;
+  height: 472px;
+  position: relative;
+}
+.business_process .content_box p {
+  font-size: 24px;
+  color: #8a8a8a;
+  position: absolute;
+}
+.business_process .content_box .text_jx {
+  top: 25%;
+  left: 7%;
+}
+.business_process .content_box .text_zdsx {
+  top: 10%;
+  left: 24%;
+}
+.business_process .content_box .text_qy {
+  top: 25%;
+  left: 47%;
+}
+.business_process .content_box .text_shebao {
+  top: 14%;
+  left: 77%;
+}
+.business_process .content_box .text_ygzh {
+  top: 88%;
+  left: 3%;
+}
+.business_process .content_box .text_tixian {
+  top: 74%;
+  left: 24%;
+}
+.business_process .content_box .text_gzdk {
+  top: 50%;
+  left: 45%;
+}
+.business_process .content_box .text_disanf {
+  top: 79%;
+  left: 42%;
+}
+.business_process .content_box .text_xzff {
+  top: 74%;
+  left: 64%;
+}
+.business_process .content_box .text_gryhk {
+  top: 79%;
+  left: 80%;
+}
