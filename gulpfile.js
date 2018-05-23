@@ -48,7 +48,6 @@ gulp.task('devWatch', function () {
 gulp.task('.myServer', ['imageMinDev', 'changeLessDev', 'changeJsDev', 'fileIncludeDev', 'devWatch', 'connect']);
 
 
-/*
 //js压缩 交付
 var distJs = require('./gulp/dist/js.dist.js');
 
@@ -80,4 +79,4 @@ gulp.task('.dist', ['imageMinDev', 'changeLessDev', 'changeJsDev', 'fileIncludeD
 
     gulp.start('distJs', 'distCss', 'distImg', 'distHtml')
 
-});*/
+});

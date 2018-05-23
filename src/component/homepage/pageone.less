@@ -1,32 +1,56 @@
 .jx_banner{
   position: relative;
   width: 100%;
-  height: 830px;
-  background: url(../../images/banner-bg.png) top center no-repeat;
+  height: 900px;
+  background: url('../images/banner-bg.png') top center no-repeat;
   margin: 0 auto;
+  background-size: 100%;
+  @media screen and (max-width: 1374px) {
+   height: 100%;
+  }
 }
 
 .jx_banner .jx_banner_content{
   position: relative;
   height: 100%;
-  max-width: 1200px;
+  min-width: 1200px;
   width: 1073px;
   margin: 0 auto;
   padding-top: 50px;
 }
 .jx_banner .jx_banner_content .jx_banner_img{
-  background: url(../../images/banner-content.png) top center no-repeat;
+  //background: url(../images/banner-content.png) top center no-repeat;
   width:712px;
   height: 677px;
   position: absolute;
-  top: 18%;
-  left: 43%;
+  top: 100px;
+  right: -100px;
+  text-align:center ;
+
+  @media screen and (max-width: 1374px) {
+    top: 10px;
+    right: 0;
+  }
+  img{
+    width: 100%;
+
+    @media screen and (max-width: 1374px) {
+      width: 75%;
+    }
+
+  }
+
 }
 .jx_banner .jx_banner_txt{
   position: absolute;
-  left: -3%;
-  top: 42%;
+  left: 0;
+  top: 300px;
   color: white;
+
+  @media screen and (max-width: 1374px) {
+    left: 10px;
+    top: 100px;
+  }
 }
 
 .jx_banner .jx_banner_txt p{
